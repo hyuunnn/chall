@@ -24,7 +24,7 @@ MemProcFS는 포렌식적으로 유의미한 데이터들을 정리해주는 기
 
 ![alt text](img/image-3.png)
 
-해당 경로에 가면 파일 존재하며 파일을 추출하여 뜯어보면 된다. - 닷넷 바이너리이며 <a href="https://github.com/dnSpy/dnSpy">dnSpy</a> 사용
+해당 경로에 가면 파일이 존재하며 파일을 추출하여 뜯어보면 된다. - 닷넷 바이너리이며 <a href="https://github.com/dnSpy/dnSpy">dnSpy</a> 사용
 
 ![alt text](img/image-4.png)
 
