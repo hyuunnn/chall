@@ -2,7 +2,7 @@
 
 원본코드
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -124,7 +124,7 @@
 
 자바스크립트 난독화 코드
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
