@@ -1,6 +1,6 @@
 # python_tar
 
-CVE-2007-4559 취약점을 활용하는 문제이다.
+`CVE-2007-4559` 취약점을 활용하는 문제이다.
 
 ```python
 import tarfile

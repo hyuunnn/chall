@@ -1,6 +1,6 @@
 # simple-flask
 
-로그인을 실패했을 때 입력한 유저명과 비밀번호를 출력하는데 render_template_string에 의해 input 값으로 템플릿 언어를 입력했을 때 그대로 계산되어 SSTI 취약점 존재
+로그인을 실패했을 때 입력한 유저명과 비밀번호를 출력하는데 `render_template_string`에 의해 input 값으로 템플릿 언어를 입력했을 때 그대로 계산되어 SSTI 취약점 존재
 
 ![alt text](img/image.png)
 
