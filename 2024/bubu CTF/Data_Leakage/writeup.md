@@ -1,4 +1,4 @@
-# Data_Leakage
+![image](https://github.com/hyuunnn/chall/assets/15611739/9bf08ce7-f6ed-4021-9642-44452a3ca976)# Data_Leakage
 
 ## 정답
 
@@ -34,3 +34,11 @@ USB가 최초로 연결된 시간은 `setupapi.dev.log` 파일에서 `Device ins
 USB에 파일이 이동한 시간은 `$MFT`, `$LogFile` 파일을 추출하여 NTFS Log Tracker를 통해 찾을 수 있습니다. 
 
 USB 드라이브 이름은 `C:\Windows\System32\Config\SOFTWARE` 레지스트리 파일을 분석하여 `VolumeInfoCache`를 확인하시면 됩니다.
+
+레지스트리 파일을 분석할 때 유의할 점은 하이브 파일인 `SOFTWARE`와 트랜잭션 파일인 `.LOG1`, `.LOG2` 파일들을 합치는 작업 (`dirty`한 상태에서 `clean`한 상태로 변환)이 필요합니다.
+
+Registry Explorer 도구를 사용하면 `clean`한 파일을 만들 것인지 물어보는 문구가 뜹니다.
+
+<a href="https://github.com/msuhanov/regf/blob/master/Windows%20registry%20file%20format%20specification.md#types-of-files">Windows registry file format specification</a>
+
+<a href="https://cloud.google.com/blog/topics/threat-intelligence/digging-up-the-past-windows-registry-forensics-revisited/">Digging Up the Past: Windows Registry Forensics Revisited</a>
