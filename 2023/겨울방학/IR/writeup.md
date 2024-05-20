@@ -28,7 +28,7 @@ NTFS Log Tracker를 사용하여 로그를 추출한 후 csv 파일로 뽑아낸
 
 `0IAjDNgXOrFO.exe`인데 도구에 따라서 대문자로만 보여주는 경우도 있으므로 flag 통일을 위해 소문자로 인증 요구
 
-더 나아가서 해당 파일을 추출하고 [virustotal](https://www.virustotal.com/gui/file/f518277b7006b6ffdc8cc3a3ff6943f1fcaffd98078bf529e8ae9183c05ba941)의 결과를 확인하면 HiddenTear Ransomware임을 확인할 수 있다.
+더 나아가서 해당 파일을 추출하고 [virustotal](https://www.virustotal.com/gui/file/f518277b7006b6ffdc8cc3a3ff6943f1fcaffd98078bf529e8ae9183c05ba941)의 결과를 확인하면 `HiddenTear Ransomware`임을 확인할 수 있다.
 
 ![alt text](img/image-2.png)
 
@@ -122,7 +122,7 @@ lnk 파일이 생성되었다는 것 자체가 해당 파일을 실행하여 생
 
 랜섬웨어 감염 역시 RAT Builder 배포자가 실행시켰을 가능성도 존재
 
-`test.exe`는 무엇인지, `Client.exe`는 무엇인지 확인이 필요함 → 역시 MFT, UsnJrnl에서 확인
+`test.exe`는 무엇인지, `Client.exe`는 무엇인지 확인이 필요함 → 역시 `MFT`, `UsnJrnl`에서 확인
 
 ![alt text](img/image-18.png)
 
@@ -198,7 +198,7 @@ KEEPER{MessageB0xoxx0xo_0x0xoxxox}
 
 ![alt text](img/image-20.png)
 
-Quasar RAT에서 Show Messagebox 기능을 사용했다.
+Quasar RAT에서 `Show Messagebox` 기능을 사용했다.
 
 evtx를 보면 MessageBox 뜬 출력 결과를 확인할 수 있다.
 
