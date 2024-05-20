@@ -19,6 +19,7 @@
 ex: `BUBU{2024-12-23T12:34:56_name.com_filename.extension}`
 
 타임스탬프는 한국 시간인 UTC+9를 따르며, ISO 8601 표준에 의해 날짜와 시간 사이에 T 문자를 입력한다.
+
 https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations
 
 문제 파일은 `memmem 1`에 있는 파일과 동일합니다.
