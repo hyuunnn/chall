@@ -116,7 +116,7 @@ python 관련 로그 시간과 최초로 temp 폴더에 보인 `svchost.exe` 시
 
 위 로그를 보면 `login_start.bat` 이후에 task 생성 프로그램인 `schtasks.exe`의 프리패치 파일 생성(`CRE`) 기록이 있고 (실행 되었다는 증거), defender와 관련된 로그, `reg.exe`가 실행되는게 매우 수상하다고 볼 수 있다.
 
-이렇게 동작하고 나서 위에서 설명했듯이 `svchost.exe` 드랍 및 실행된다.
+이렇게 동작하고 나서 위에서 설명했듯이 `svchost.exe` 악성 파일을 드랍 및 실행된다.
 
 # memmem 3
 
