@@ -39,7 +39,7 @@ https://github.com/microsoft/GRTr/pull/7/files - `safe_extract` 함수를 보면
 ## 문제 풀이
 
 1. 문제 파일로 주어진 `run.py` 코드를 분석
-2. `flag.txt` 파일을 만들어서 위 코드에서 요구하는 문자로 저장
+2. `flag.txt` 파일을 만들어서 코드에서 요구하는 문자(`tar_tar_Tar_TAr_TaR_Tar`)로 저장
 3. `make_tar.py`를 실행하여 tar 파일 생성
 
 ```python
