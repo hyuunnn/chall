@@ -156,9 +156,7 @@ name 폴더에 가면 `프로세스명-PID` 형식으로 정리되어 있으며,
 
 ![alt text](img/image-27.png)
 
-아무튼 플래그는 영어이기 때문에 
-
-`strings minidump-6232-ut.txt |grep -E 'Admin:|You:'` 으로 필터링하면 플래그를 확인할 수 있다.
+아무튼 플래그는 영어이기 때문에 `strings minidump-6232-ut.txt |grep -E 'Admin:|You:'` 으로 필터링하면 플래그를 확인할 수 있다.
 
 <img src="img/image-28.png" alt="alt text" width="50%" />
 
