@@ -39,6 +39,8 @@ USB 드라이브 이름은 `C:\Windows\System32\Config\SOFTWARE` 레지스트리
 
 Registry Explorer 도구를 사용하면 `clean`한 파일을 만들 것인지 물어보는 문구가 뜹니다.
 
+![alt text](img/image-3.png)
+
 <a href="https://github.com/msuhanov/regf/blob/master/Windows%20registry%20file%20format%20specification.md#types-of-files">Windows registry file format specification</a>
 
 <a href="https://cloud.google.com/blog/topics/threat-intelligence/digging-up-the-past-windows-registry-forensics-revisited/">Digging Up the Past: Windows Registry Forensics Revisited</a>
