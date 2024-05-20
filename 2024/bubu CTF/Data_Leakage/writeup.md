@@ -1,4 +1,4 @@
-![image](https://github.com/hyuunnn/chall/assets/15611739/9bf08ce7-f6ed-4021-9642-44452a3ca976)# Data_Leakage
+# Data_Leakage
 
 ## 정답
 
