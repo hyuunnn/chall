@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hihi</title>
+    </head>
+    <body>
+        <p>{{ msg }}</p>
+        <p>{{ flag }}</p>
+        <form action="/upload" method="post", enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
