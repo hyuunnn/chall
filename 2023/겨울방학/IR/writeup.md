@@ -2,7 +2,7 @@
 
 ## 정답
 
-KEEPER{2023년_10월_회계부.png_2024-01-03T17:18:11_0iajdngxorfo.exe}
+`KEEPER{2023년_10월_회계부.png_2024-01-03T17:18:11_0iajdngxorfo.exe}`
 
 ## 풀이 과정
 
@@ -52,7 +52,7 @@ x-ways에서 `Explore recursively` 기능을 사용하면 폴더 내부에 존�
 
 ## 정답
 
-KEEPER{https://keeper.or.kr/board/view/172731_11월_회계부.rar_2024-01-03T17:04:29}
+`KEEPER{https://keeper.or.kr/board/view/172731_11월_회계부.rar_2024-01-03T17:04:29}`
 
 ## 풀이 과정
 
@@ -180,7 +180,7 @@ cve-2023-38831 취약점 분석 글: [HDCE-inc](https://hdce.medium.com/cve-2023
 
 ## 정답
 
-KEEPER{quasar_hiddentear}
+`KEEPER{quasar_hiddentear}`
 
 ## 풀이 과정
 
@@ -192,7 +192,7 @@ IR-2까지 추측성으로 충분히 풀 수 있어서 IR-3에 어떤 파일이 
 
 ## 정답
 
-KEEPER{MessageB0xoxx0xo_0x0xoxxox}
+`KEEPER{MessageB0xoxx0xo_0x0xoxxox}`
 
 ## 풀이과정
 
