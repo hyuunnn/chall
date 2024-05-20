@@ -8,7 +8,7 @@
 
 파일명은 소문자로 입력, 띄어쓰기는 언더바(_) 처리, 타임스탬프는 한국 시간인 UTC+9를 따르며, ISO 8601 표준에 의해 날짜와 시간 사이에 T 문자를 입력한다.
 
-ex: KEEPER{asdf.asd_2024-12-23T12:34:56_example.exe}
+ex: `KEEPER{asdf.asd_2024-12-23T12:34:56_example.exe}`
 
 ## IR-2
 
@@ -22,7 +22,7 @@ ex: KEEPER{asdf.asd_2024-12-23T12:34:56_example.exe}
 
 파일명은 소문자로 입력, 띄어쓰기는 언더바(_) 처리, 타임스탬프는 한국 시간인 UTC+9를 따르며, ISO 8601 표준에 의해 날짜와 시간 사이에 T 문자를 입력한다.
 
-ex: KEEPER{https://www.example.com/_asdf.asd_2024-12-23T12:34:56}
+ex: `KEEPER{https://www.example.com/_asdf.asd_2024-12-23T12:34:56}`
 
 ## IR-3
 
@@ -30,7 +30,7 @@ ex: KEEPER{https://www.example.com/_asdf.asd_2024-12-23T12:34:56}
 
 이름은 소문자로 입력한다.
 
-ex: KEEPER{RAT이름_랜섬웨어이름}
+ex: `KEEPER{RAT이름_랜섬웨어이름}`
 
 ## IR-4
 
