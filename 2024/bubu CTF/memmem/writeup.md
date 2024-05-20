@@ -138,7 +138,7 @@ name 폴더에 가면 `프로세스명-PID` 형식으로 정리되어 있으며,
 
 ![alt text](img/image-22.png)
 
-<img src="img/image-23.png" alt="alt text" width="75%" />
+<img src="img/image-23.png" alt="alt text" width="50%" />
 
 프로그램 파일명인 `svchost`, 채팅 프로그램으로 보이는 `ChatForm`이라는 문자가 보이는데, 채팅 내역은 딱히 보이지 않는다.
 
@@ -146,7 +146,7 @@ name 폴더에 가면 `프로세스명-PID` 형식으로 정리되어 있으며,
 
  `-e l` 옵션을 주면 16bit utf-16 데이터들을 추출할 수 있다. `strings` 명령어를 사용했을 때 별다른 수확이 없다면 utf-16 데이터들도 찾아보자.
 
-<img src="img/image-25.png" alt="alt text" width="75%" />
+<img src="img/image-25.png" alt="alt text" width="50%" />
 
 채팅 내역으로 보이는 문자들이 보인다. `Admin:`, `You:`로 필터링해서 해당 문자들을 중점적으로 확인해보자. → 채팅 내역이 생각보다 많이 보이지 않는다. `strings` 명령어에서 한글을 추출하지 못했기 때문이다.
 
@@ -160,9 +160,9 @@ name 폴더에 가면 `프로세스명-PID` 형식으로 정리되어 있으며,
 
 `strings minidump-6232-ut.txt |grep -E 'Admin:|You:'` 으로 필터링하면 플래그를 확인할 수 있다.
 
-<img src="img/image-28.png" alt="alt text" width="75%" />
+<img src="img/image-28.png" alt="alt text" width="50%" />
 
-<img src="img/image-29.png" alt="alt text" width="75%" />
+<img src="img/image-29.png" alt="alt text" width="50%" />
 
 다음 사진은 실제로 보냈던 채팅 내역이다.
 
