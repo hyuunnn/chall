@@ -2,7 +2,7 @@
 
 <a href="https://drive.google.com/file/d/1Dx0YSi6DQe88QWNU0sP1Q4lyfNMc0-_E">파일 다운로드</a>
 
-해킹캠프 참여자 명단이 USB를 통해 유출되었다고 한다.
+부산대 & 부경대 연합 해킹캠프 참여자 명단이 USB를 통해 유출되었다고 한다.
 
 `BUBU{USB가 연결된 시간_USB에 파일이 이동한 시간_USB 드라이브 이름}`
 
