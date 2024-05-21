@@ -35,7 +35,7 @@ USB에 파일이 이동한 시간은 `$MFT`, `$LogFile` 파일을 추출하여 N
 
 USB 드라이브 이름은 `C:\Windows\System32\Config\SOFTWARE` 레지스트리 파일을 분석하여 `VolumeInfoCache`를 확인하시면 됩니다.
 
-레지스트리 파일을 분석할 때 유의할 점은 하이브 파일인 `SOFTWARE`와 트랜잭션 파일인 `.LOG1`, `.LOG2` 파일들을 합치는 작업 (`dirty`한 상태에서 `clean`한 상태로 변환)이 필요합니다.
+레지스트리 파일을 분석할 때 유의할 점은 하이브 파일(`SOFTWARE`, `SYSTEM`)과 트랜잭션 파일인 `.LOG1`, `.LOG2` 파일들을 합치는 작업 (`dirty`한 상태에서 `clean`한 상태로 변환)이 필요합니다.
 
 Registry Explorer 도구를 사용하면 `clean`한 파일을 만들 것인지 물어보는 문구가 뜹니다.
 
