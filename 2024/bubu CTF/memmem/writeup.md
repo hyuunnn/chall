@@ -38,7 +38,7 @@ MemProcFS는 포렌식적으로 유의미한 데이터들을 정리해주는 기
 
 ![alt text](img/image-8.png)
 
-MemProcFS가 분석해준 `files` 폴더에서는 보이지 않았지만 디렉토리, 파일 구조를 보여주는 `ntfs` 폴더에서는 확인할 수 있었다.
+MemProcFS가 분석해준 `files` 폴더에서는 보이지 않았지만 디렉토리, 파일 구조를 보여주는 `ntfs` 폴더에서는 확인할 수 있었다. - 데이터는 남아있지 않음
 
 # memmem 2
 
@@ -68,7 +68,7 @@ history 데이터를 보면 잠겨있는 tistory 블로그와 여기에서 `logi
 
 ![alt text](img/image-12.png)
 
-MemProcFS의 `ntfs` 폴더에서도 확인할 수 있다.
+MemProcFS의 `ntfs` 폴더에서도 확인할 수 있다. - 위에서 말했듯이 파일 존재 유무만 확인할 수 있다. (의미 없는 데이터로 채워져 있음)
 
 `strings history.txt |grep -E "[http://|https](http://%7Chttps)://"` 으로 1번 더 필터링하면 좀 더 직관적으로 확인 가능
 
