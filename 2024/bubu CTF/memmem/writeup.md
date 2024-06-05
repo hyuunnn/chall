@@ -34,11 +34,11 @@ MemProcFS는 포렌식적으로 유의미한 데이터들을 정리해주는 기
 
 ![alt text](img/image-6.png)
 
+위 경로에 접근하여 정말 남아있는지 확인해보자.
+
 ![alt text](img/image-7.png)
 
 ![alt text](img/image-8.png)
-
-위 경로에 접근하여 정말 남아있는지 확인해보자.
 
 MemProcFS가 분석해준 `files` 폴더에서는 보이지 않았지만 디렉토리, 파일 구조를 보여주는 `ntfs` 폴더에서는 확인할 수 있었다. - 데이터는 남아있지 않음
 
