@@ -34,7 +34,7 @@ MemProcFS는 포렌식적으로 유의미한 데이터들을 정리해주는 기
 
 ![alt text](img/image-6.png)
 
-위 경로에 접근하여 정말 남아있는지 확인해보자.
+`schtasks` 명령어를 사용할 때 생성되는 파일이 존재하는지 확인해보자.
 
 ![alt text](img/image-7.png)
 
